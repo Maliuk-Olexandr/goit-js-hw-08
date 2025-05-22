@@ -89,10 +89,11 @@ function createGalleryMarkup(arr) {
 }
 function onGalleryItemClick(event) {
   event.preventDefault();
-  if (!event.target.nodeName === "IMG") {
+  if (!event.target.classList.contains("gallery-image")) {
     return;
   }
-  openModal(event.target.dataset.source);
+  const originalImageUrl = event.target.dataset.source;
+  openModal(originalImageUrl);
 }
 
 function openModal(originalImageUrl) {

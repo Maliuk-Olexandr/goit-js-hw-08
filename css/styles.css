@@ -8,20 +8,17 @@
 }
 ul{
   list-style: none;
-}
-img{
-  cursor: url('../cursor.svg'), pointer;
-}
-img:hover,
-img:focus{
-  transform: scale(1.05);
-}
-
-.container{
   max-width:  1440px;
   margin: 0 auto;
   padding: 24px 156px;
 }
+
+img:hover,
+img:focus{
+  transform: scale(1.05);
+  cursor: url('/cursor.svg'), pointer;
+}
+
 .gallery{
   display: flex;
   flex-wrap: wrap;
