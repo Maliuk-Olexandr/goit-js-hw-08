@@ -16,7 +16,6 @@ ul{
 img:hover,
 img:focus{
   transform: scale(1.05);
-  cursor: url('./cursor.svg'), pointer;
 }
 
 .gallery{
