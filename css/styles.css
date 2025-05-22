@@ -10,7 +10,7 @@ ul{
   list-style: none;
 }
 img{
-  cursor: url('/cursor.svg'), pointer;
+  cursor: url('../cursor.svg'), pointer;
 }
 img:hover,
 img:focus{
