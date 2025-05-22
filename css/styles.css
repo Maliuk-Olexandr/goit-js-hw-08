@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 250ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+ul{
+  list-style: none;
+}
+img{
+  cursor: url('/cursor.svg'), pointer;
+}
+img:hover,
+img:focus{
+  transform: scale(1.05);
+}
+
+.container{
+  max-width:  1440px;
+  margin: 0 auto;
+  padding: 24px 156px;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
